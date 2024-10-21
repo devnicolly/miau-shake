@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Londrina+Solid:wght@100;300;400;900&display=swap');
+
+html{
+	scroll-behavior: smooth;
+}
+
+
+*{
+	padding: 0;
+	margin: 0;
+}
+
+header{
+	background-image: url(imagens/logo-miau-shake.png);
+	background-repeat: no-repeat;
+	background-position: 5%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #ffc0a5;
+	height: 17vh;
+	width: 100%;
+	position: fixed;
+	box-shadow: 5px 5px 10px 0px rgba(109, 41, 5, 0.403);
+	z-index: 100;
+}
+
+.botao{
+	padding: 5px;
+	margin: 10px;
+	width: 15vw;
+	height: 5vh;
+	border-radius: 40px;
+	background-color: #D98662;
+	border: none;
+	font-family: "Alata", sans-serif;
+    font-weight: 400;
+	color: #FFF6EB;
+	font-size: 1.2rem;
+}
+
+.botao:hover{
+	background-color: #b16e51;
+	transform: scale(1.1);
+}
+
+#imagem-slide{
+	margin-top: 7.80%;
+	height: 100%;
+	width: 100%;
+	transition: opacity 1.5s ease;
+}
+
+#cardapio{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 5%;
+	background-color: #FFFBF6;
+}
+
+#sabores{
+	display: grid;
+	grid-template-columns: 2fr 2fr 2fr;
+	gap: 10%;
+	margin-right: 10%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+.opcao{
+	height: 45vh;
+	width: auto;
+}
+
+#titulo{
+	text-align: center;
+	font-size: 2.5rem;
+	font-family: "Londrina Solid", serif;
+    font-weight: 400;
+	color: #FFF6EB;
+	background-color: #D98662;
+	border-radius: 40px;
+	width: 45vw;
+	margin-bottom: 1%;
+}
+
+h2{
+	font-family: "Alata", sans-serif;
+    font-weight: 400;
+	color: #A75B39;
+}
+
+#sobre{
+	display: flex;
+	align-items: center;
+	padding: 5%;
+	background: linear-gradient(to bottom, #A75B39, #412316);
+	
+}
+
+#texto-sobre{
+	background-color: #331706;
+	height: 85vh;
+	width: 75vw;
+	border-radius: 50px;
+	text-align: left;
+	padding: 5%;
+}
+
+#titulo-sobre{
+	text-align: center;
+	font-family: "Londrina Solid", serif;
+    font-weight: 400;
+	font-size: 6rem;
+	color: #F69469;
+}
+
+p{
+	font-family: "Alata", sans-serif;
+    font-weight: 400;
+	color: #FFF6EB;
+	font-size: 2rem;
+}
+
+.copo{
+	cursor: pointer;
+	transform-style: preserve-3d;
+	transform: perspective(1000px);
+	transform: translateZ(20px);
+}
+
+#ongs{
+	padding: 5% 0% 5% 0%;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: space-evenly;
+	background-color: #FFFBF6;
+}
+
+#texto-ongs{
+	margin-bottom: 5%;
+}
+
+#ongs h1{
+	text-align: center;
+	font-size: 7rem;
+	font-family: "Londrina Solid", serif;
+    font-weight: 400;
+	color: #A75B39;
+}
+
+#ongs h3{
+	color: #B1602E;
+	font-family: "Alata", sans-serif;
+    font-weight: 400;
+	font-size: 1.5rem;
+}
+
+#ongs h2{
+	margin-top: 5%;
+	font-size: 3rem;
+	font-family: "Londrina Solid", serif;
+    font-weight: 400;
+	color: #D98662;
+}
+
+#ongs span {
+	font-family: "Londrina Solid", serif;
+    font-weight: 400;
+	color: #B1602E;
+}
+
+aside{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border-left: solid #B1602E;
+	padding: 5%;
+}
+
+#botao-ongs1, #botao-ongs2, #botao-ongs3{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 30vw;
+	height: 10vh;
+	border-radius: 40px;
+	margin: 5%;
+	border: none;
+	text-decoration: none;
+	font-family: "Alata", sans-serif;
+    font-weight: 400;
+	color: #FFF6EB;
+	font-size: 2rem;
+}
+
+#botao-ongs1{
+	background-color: #D58563;
+}
+
+#botao-ongs2{
+	background-color: #DB7F00 ;
+}
+
+#botao-ongs3{
+	background-color: #412316;
+}
+
+#botao-ongs1:hover,#botao-ongs2:hover,#botao-ongs3:hover{
+	transform: scale(1.1);
+}
+
+.gatinho-laranja{
+	align-self: center;
+	height: 102vh;
+	width: auto;
+}
+
+footer{
+	padding: 2%;
+	display: flex;
+	background: linear-gradient(to bottom, #D38360 2%, #FFAE8B 98%);
+	align-items: center;
+	justify-content: space-around;
+}
+
+#texto-footer, #redes-sociais{
+	margin-top: 2%;
+	font-family: "Alata", sans-serif;
+    font-weight: 400;
+	color: #412316;
+	font-size: 1.5rem;
+}
+
+
+#informacoes span {
+	font-family: "Londrina Solid", serif;
+    font-weight: 400;
+	font-size: 2.5rem;
+	color: #FFF6EB;
+}
+
+#redes-sociais img{
+	margin-top: 10%;
+	margin-left: 10%;
+	height: 10vh;
+}
+
+
+#selo img{
+	height: 50vh;
+}
+
+
