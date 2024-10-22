@@ -10,7 +10,11 @@ Olá! Este site foi feito como atividade do bootcamp da +praTI, que consistia em
 - CSS
 - Biblioteca externa: Vanilla-tilt.js
 
-Acesse clicando na imagem: (Ou faça download dos arquivos)
+# Idealização do site:
 
-<a  width="100px" height="100px" href="https://miau-shake.vercel.app/">![image](https://github.com/user-attachments/assets/2dae277e-bc74-4a71-8bfb-ac6c09cb781b)
-</a>
+![projeto-site](https://github.com/user-attachments/assets/bdaa7461-edc9-4d54-a892-b694ff16dc33)
+
+
+# Acesse: https://miau-shake.vercel.app/ (Ou faça download dos arquivos)
+
+
